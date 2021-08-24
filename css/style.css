@@ -1,0 +1,74 @@
+/* General */
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+}
+
+
+/* Navbar */
+
+.navbar {
+    list-style-type: none;
+    margin: 35px;
+    padding: 0;
+}
+  
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    color:$white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.nopointer {
+    cursor: default;
+    margin-bottom: 15px;
+}
+
+/* .navbar li a:hover:not(.active) {
+color: $yellow;
+text-decoration: none;
+}
+
+.navbar li a.active {
+color: $yellow;
+text-decoration: none;
+} */
+/* 
+.navbar .btn-navbar {
+font-size: 9pt;
+color: white;
+border: 1px solid white;
+padding: 11px 18px;
+border-radius: 50px;
+font-weight: lighter;
+transition: opacity 0.3s ease;
+font-family: $my-font2;
+}
+
+.navbar .btn-navbar:hover {
+text-decoration: none;
+background-color: white;
+}
+
+#btn-navbar2:hover {
+color: black;
+} */
+
+.navbar .lesspadding  {
+    padding-right: 2px;
+}
+
+.fab {
+    font-size: 16px;
+}
+  
