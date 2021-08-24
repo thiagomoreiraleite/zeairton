@@ -16,8 +16,6 @@ body {
 
 .navbar {
     list-style-type: none;
-    /* margin: 35px; */
-    /* padding: 0; */
     position: absolute;
     background-color: #FBFBFB;
     top: 0px;
@@ -31,7 +29,6 @@ body {
 .navbar li a {
     color:#E3211F;
     text-align: center;
-    /* padding: 14px 16px; */
     text-decoration: none;
     font-size: 14pt;
 }
@@ -51,17 +48,40 @@ body {
 
 /* Banner */
 
+#banner {
+    width: 100%;
+}
   
-/* Quem Somos */
+/* Quem Sou */
 
 .quem {
     display: flex;
 }
 
 .quem h1 {
-    color: #E3211F
+    color: #E3211F;
+    font-size: 65px;
+}
+
+.quem p {
+    font-size: 22px;
+}
+
+.quem-img {
+    width: 50%;
 }
 
 #paragrafos {
-    width: 50%;
+    /* width: 50%; */
+    padding: 60px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    line-height: 2;
 }
+
+/* Quem Sou */
+
+#banner-atuacao {
+    width: 100%;
+}
+  
