@@ -117,10 +117,57 @@ body {
     width: 100%;
 }
 
-.footer {
+/* Social Media Section */
+
+.fale-comigo {
+    background: linear-gradient(0.25turn, #f09218, #f8d41f, #f09218, #ff3333, #d8241c, #ff3333);
+    color: white;
+    padding: 16px 0;
+}
+
+.fale-comigo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#fale-comigo-l {
+    margin-right: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#fale-comigo-l img {
+    height: 180px;
+}
+
+#fale-comigo-r {
+    padding-left: 12px;
     text-align: center;
 }
 
+#fale-comigo-r h3 {
+    font-weight: bold;
+    text-shadow: 0 4px 24px rgb(120, 120, 120);
+}
+
+#fale-comigo-r p {
+    margin-bottom: 0;
+}
+
+#fale-comigo-r img {
+    height: 48px;
+    width: 240px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Footer Section */
+
+.footer {
+    text-align: center;
+    padding: 12px 0;
+}
+
 .footer img {
-    width: 20%;
+    width: 16%;
 }
