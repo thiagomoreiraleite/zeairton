@@ -95,11 +95,16 @@ body {
 }
 
 .quem-img {
-    width: 50%;
+    width: 45%;
+    /* height: 80vh; */
+    background-image: url("../images/JOSÉ AIRTON_FOTO VELA 700 x 927.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #paragrafos {
-    width: 50%;
+    width: 55%;
     padding: 60px;
     padding-right: 15px;
     padding-bottom: 0px;
