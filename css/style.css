@@ -48,4 +48,20 @@ body {
 .fab {
     font-size: 16px;
 }
+
+/* Banner */
+
   
+/* Quem Somos */
+
+.quem {
+    display: flex;
+}
+
+.quem h1 {
+    color: #E3211F
+}
+
+#paragrafos {
+    width: 50%;
+}
