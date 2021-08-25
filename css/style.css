@@ -55,7 +55,7 @@ body {
     color:#E3211F;
     text-align: center;
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 16px;
     font-family: 'Orkney';
     font-weight: bold;
 }
@@ -95,14 +95,14 @@ body {
 
 .quem h1 {
     color: #E3211F;
-    font-size: 65px;
+    font-size: 48px;
     font-family: Heading-Pro-Wide;
     font-weight: bold;
     text-shadow: 0 8px 6px rgba(80, 80, 80, 0.2);
 }
 
 .quem p {
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .quem-img {
@@ -116,7 +116,7 @@ body {
 #paragrafos {
     width: 55%;
     padding: 60px 16px 40px 60px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 /* Atuacao */
