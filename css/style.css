@@ -3,6 +3,12 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+@font-face {
+    font-family: 'Orkney';
+    src: url('../fonts/orkney-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 
 body {
@@ -30,7 +36,9 @@ body {
     color:#E3211F;
     text-align: center;
     text-decoration: none;
-    font-size: 14pt;
+    font-size: 16pt;
+    font-family: Orkney;
+    font-weight: bold;
 }
 
 .nopointer {
