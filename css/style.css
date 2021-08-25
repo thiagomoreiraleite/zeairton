@@ -55,7 +55,7 @@ body {
     color:#E3211F;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Orkney';
     font-weight: bold;
 }
@@ -89,34 +89,12 @@ body {
 
 /* Quem Sou */
 
-.quem {
+#quem {
     display: flex;
 }
 
-.quem h1 {
-    color: #E3211F;
-    font-size: 48px;
-    font-family: Heading-Pro-Wide;
-    font-weight: bold;
-    text-shadow: 0 8px 6px rgba(80, 80, 80, 0.2);
-}
-
-.quem p {
-    font-size: 16px;
-}
-
-.quem-img {
-    width: 45%;
-    background-image: url("../images/JOSÉ AIRTON_FOTO VELA 700 x 927.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#paragrafos {
-    width: 55%;
-    padding: 60px 16px 40px 60px;
-    line-height: 1.5;
+#quem img {
+    width: 100%;
 }
 
 /* Atuacao */
@@ -214,19 +192,6 @@ body {
 
     #banner {
         margin-top: 68px;
-    }
-
-    #paragrafos {
-        width: 100%;
-        padding: 24px;
-    }
-
-    #paragrafos h1 {
-        font-size: 24px;
-    }
-
-    #paragrafos p {
-        font-size: 14px;
     }
 
     .fale-comigo-container {
