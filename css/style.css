@@ -1,4 +1,5 @@
 /* General */
+
 * {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -27,7 +28,6 @@ body {
     height: 100%;
     margin: 0 auto;
 }
-
 
 /* Navbar */
 
@@ -63,6 +63,14 @@ body {
 
 .fab {
     font-size: 16px;
+}
+
+.social-icon {
+    width: 40px;
+}
+
+#last-social-icon {
+    margin-right: 36px;
 }
 
 /* Banner */
@@ -121,7 +129,7 @@ body {
 /* Social Media Section */
 
 .fale-comigo {
-    background: linear-gradient(0.25turn, #f09218, #f8d41f, #f09218, #ff3333, #d8241c, #ff3333);
+    background: linear-gradient(0.20turn, #f09218, #f8d41f, #f09218, #ff3333, #d8241c, #ff3333);
     color: white;
     margin-top: 24px;
     padding: 16px 0;
