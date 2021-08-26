@@ -133,6 +133,8 @@ body {
 #fale-comigo-l {
     margin-right: 12px;
     text-align: center;
+    font-family: 'Orkney';
+    font-weight: bold;
     font-size: 14px;
 }
 
@@ -145,13 +147,18 @@ body {
     text-align: center;
 }
 
+#fale-comigo-r p {
+    margin-bottom: 0;
+    font-family: 'Orkney';
+    font-weight: bold;
+}
+
 #fale-comigo-r h3 {
     font-weight: bold;
     text-shadow: 0 4px 24px rgb(120, 120, 120);
-}
-
-#fale-comigo-r p {
-    margin-bottom: 0;
+    font-family: 'Heading-Pro-Wide';
+    font-weight: bold;
+    font-size: 22px;
 }
 
 #fale-comigo-r img {
@@ -166,6 +173,7 @@ body {
 .footer {
     text-align: center;
     padding: 12px 0;
+    font-family: 'Orkney';
 }
 
 .footer img {
