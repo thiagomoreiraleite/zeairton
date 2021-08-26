@@ -88,6 +88,7 @@ body {
     font-size: 65px;
     font-family: Heading-Pro-Wide;
     font-weight: bold;
+    text-shadow: 0 8px 6px rgba(80, 80, 80, 0.2);
 }
 
 .quem p {
@@ -155,7 +156,7 @@ body {
 
 #fale-comigo-r h3 {
     font-weight: bold;
-    text-shadow: 0 4px 24px rgb(120, 120, 120);
+    text-shadow: 0 8px 6px rgba(80, 80, 80, 0.4);
     font-family: 'Heading-Pro-Wide';
     font-weight: bold;
     font-size: 22px;
