@@ -38,7 +38,15 @@ body {
     top: 0px;
     width: 100%;
 }
-  
+
+.spacer li {
+    padding-right: 16px;
+}
+
+#logo-top {
+    height: 87px;
+}
+
 .navbar li {
     display: inline;
 }
@@ -48,17 +56,13 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 16pt;
-    font-family: Orkney;
+    font-family: 'Orkney';
     font-weight: bold;
 }
 
 .nopointer {
     cursor: default;
     margin-bottom: 15px;
-}
-
-.navbar .lesspadding  {
-    padding-right: 2px;
 }
 
 .fab {
@@ -70,19 +74,17 @@ body {
 }
 
 #last-social-icon {
-    margin-right: 36px;
+    margin-right: 24px;
 }
 
 /* Banner */
 
 #banner {
-    width: 100%;
-    height: 80vh;
-    background-image: url("../images/JOSÉ AIRTON_BANNER SITE 2000 x 876.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-top: 96px;
+}
+
+#banner img {
+    width: 100vw;
 }
 
 /* Quem Sou */
@@ -105,22 +107,19 @@ body {
 
 .quem-img {
     width: 45%;
-    /* height: 80vh; */
     background-image: url("../images/JOSÉ AIRTON_FOTO VELA 700 x 927.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #paragrafos {
     width: 55%;
-    padding: 60px;
-    padding-right: 15px;
-    padding-bottom: 0px;
+    padding: 60px 16px 40px 60px;
     line-height: 2;
 }
 
-/* Quem Sou */
+/* Atuacao */
 
 #banner-atuacao {
     width: 100%;
@@ -188,4 +187,63 @@ body {
 
 .footer img {
     width: 16%;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+    .hide {
+      display: none;
+    }
+
+    .social-icon {
+        width: 28px;
+    }
+
+    #last-social-icon {
+        margin-right: 16px;
+    }
+
+    #logo-top {
+        height: 60px;
+    }
+
+    .navbar {
+        padding: 4px;
+    }
+
+    #banner {
+        margin-top: 68px;
+    }
+
+    #paragrafos {
+        width: 100%;
+        padding: 24px;
+    }
+
+    #paragrafos h1 {
+        font-size: 24px;
+    }
+
+    #paragrafos p {
+        font-size: 14px;
+    }
+
+    .fale-comigo-container {
+        flex-direction: column;
+    }
+
+    #fale-comigo-r {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 36%;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
 }
