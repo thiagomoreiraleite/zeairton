@@ -72,7 +72,7 @@ body {
 }
 
 #paragrafos {
-    /* width: 50%; */
+    width: 50%;
     padding: 60px;
     padding-right: 15px;
     padding-bottom: 0px;
@@ -84,4 +84,11 @@ body {
 #banner-atuacao {
     width: 100%;
 }
-  
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    width: 20%;
+}
